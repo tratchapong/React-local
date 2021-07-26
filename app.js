@@ -2,7 +2,8 @@ function App() {
   const [counter, setCounter] = React.useState(0)
   return(
   <>
-    <h1 className="title">React Playground Local</h1>
+    {/* <h1 className="title">React Playground Local</h1> */}
+    <p className="display-1 bg-light">React PlayGround</p>
     <h1>Counter : <span> {counter} </span></h1>
     <div className = "btn">
       <button onClick={()=>setCounter(counter-1)}>-</button>
